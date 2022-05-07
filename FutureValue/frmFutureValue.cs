@@ -53,5 +53,18 @@ namespace FutureValue
         {
             txtFutureValue.Text = "";
         }
+
+        private void frmFutureValue_DoubleClick(object sender, EventArgs e)
+        {
+            txtMonthlyInvestment.Text = "";
+            txtFutureValue.Text = "";
+            txtInterestRate.Text = "";
+            txtYears.Text = "";
+        }
+
+        private void txtInterestRate_DoubleClick(object sender, EventArgs e)
+        {
+            txtInterestRate.Text = "12";
+        }
     }
 }
